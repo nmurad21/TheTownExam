@@ -1,0 +1,690 @@
+@media only screen and ( max-width: 992px ){
+    #the-town-background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .background-img{
+            position: relative;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .background-img-text{
+            position: absolute;
+            text-align: center;
+            span{
+                font-size: 25px;
+            }
+            h4{
+                font-size: 15px;
+            }
+            .background-btn{
+                margin-top: 50px;
+                button{
+                    border: none;
+                    border-radius: 30%;
+                    font-size: 28px;
+                    padding: 2px 16px;
+                    i{
+                        color: black;
+                    }
+                    &:hover{
+                        background-color: rgb(46, 46, 168);
+                        transition: 0.3s;
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #introduction{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        .introduction-img{
+            img{
+                width: 90%;
+            }
+        }
+        .introduction-text{
+            span{
+                font-size: 30px;
+                color: #00b7ff;
+            }
+            p{
+                font-size: 17px;
+            }
+            .introduction-btn{
+                button{
+                    border: none;
+                    border-radius: 2rem;
+                    padding: 2px 15px;
+                    background-color: #1c8db9;
+                    color: white;
+                    &:hover{
+                        background-color: rgba(79, 170, 206, 0.815);
+                        transition: 0.4s;
+                    }
+                }
+            }
+        }
+    }
+    #transportation{
+        margin-top: 150px;
+        .transportation-icon{
+            text-align: center;
+            color: #1c8db9;
+            i{
+                font-size: 45px;
+            }
+        }
+        .title-transpolation{
+            text-align: center;
+            margin-top: 30px;
+            span{
+                text-align: center;
+                color: #1c8db9;
+                font-size: 25px;
+            }
+        }
+        p{
+            margin-top: 30px;
+            font-size: 16px;
+            color: gray;
+        }
+    }
+    #work{
+        margin-top: 150px;
+        text-align: center;
+        .title{
+            span{
+                color: #1c8db9;
+                font-size: 35px;
+            }
+        }
+        .subtitle{
+            margin-top: 15px;
+            p{
+                font-size: 18px;
+                color: gray;
+            }
+        }
+    }
+    #contact{
+        .contact-image{
+            background-image: url("../images/the-town-bg-02.jpg");
+            width: 100%;
+            height: 600px;
+            margin-top: 100px;
+            .contact-text{
+                span{
+                    font-size: 30px;
+                    color: white;
+                }
+                .first-line{
+                    margin-top: 15px;
+                    width: 100%;
+                    height: 2px;
+                    background-color: white;
+                }
+                .second-line{
+                    width: 20%;
+                    height: 6px;
+                    background-color: white;
+                }
+                p{
+                    margin-top: 50px;
+                    font-size: 22px;
+                    color: white;
+                }
+            }
+            .phone{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 23px;
+                    }
+                    span{
+                        font-size: 22px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .mail{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 23px;
+                    }
+                    span{
+                        font-size: 22px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .location{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 23px;
+                    }
+                    span{
+                        font-size: 22px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .send-message{
+                margin-top: 50px;
+                input{
+                    background-color: transparent;
+                    border-radius: 5px;
+                    font-size: 12px;
+                    padding: 2px 16px;
+                    border-color: white;
+                    color: white;
+                }
+                button{
+                    margin-left: 15px;
+                    border: none;
+                    font-size: 23px;
+                    border-radius: 5px;
+                    padding: 2px 19px;
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.658);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and ( max-width: 768px ){
+    #the-town-background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .background-img{
+            position: relative;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .background-img-text{
+            position: absolute;
+            text-align: center;
+            span{
+                font-size: 20px;
+            }
+            h4{
+                font-size: 12px;
+            }
+            .background-btn{
+                margin-top: 50px;
+                button{
+                    border: none;
+                    border-radius: 30%;
+                    font-size: 25px;
+                    padding: 2px 12px;
+                    i{
+                        color: black;
+                    }
+                    &:hover{
+                        background-color: rgb(46, 46, 168);
+                        transition: 0.3s;
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #introduction{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        .introduction-img{
+            img{
+                width: 90%;
+            }
+        }
+        .introduction-text{
+            span{
+                font-size: 24px;
+                color: #00b7ff;
+            }
+            p{
+                font-size: 13px;
+            }
+            .introduction-btn{
+                button{
+                    border: none;
+                    border-radius: 2rem;
+                    padding: 2px 11px;
+                    background-color: #1c8db9;
+                    color: white;
+                    &:hover{
+                        background-color: rgba(79, 170, 206, 0.815);
+                        transition: 0.4s;
+                    }
+                }
+            }
+        }
+    }
+    #transportation{
+        margin-top: 150px;
+        .transportation-icon{
+            text-align: center;
+            color: #1c8db9;
+            i{
+                font-size: 35px;
+            }
+        }
+        .title-transpolation{
+            text-align: center;
+            margin-top: 30px;
+            span{
+                text-align: center;
+                color: #1c8db9;
+                font-size: 15px;
+            }
+        }
+        p{
+            margin-top: 30px;
+            font-size: 13px;
+            color: gray;
+        }
+    }
+    #work{
+        margin-top: 150px;
+        text-align: center;
+        .title{
+            span{
+                color: #1c8db9;
+                font-size: 25px;
+            }
+        }
+        .subtitle{
+            margin-top: 15px;
+            p{
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+    #contact{
+        .contact-image{
+            background-image: url("../images/the-town-bg-02.jpg");
+            width: 100%;
+            height: 600px;
+            margin-top: 100px;
+            .contact-text{
+                span{
+                    font-size: 20px;
+                    color: white;
+                }
+                .first-line{
+                    margin-top: 15px;
+                    width: 100%;
+                    height: 1px;
+                    background-color: white;
+                }
+                .second-line{
+                    width: 20%;
+                    height: 6px;
+                    background-color: white;
+                }
+                p{
+                    margin-top: 50px;
+                    font-size: 12px;
+                    color: white;
+                }
+            }
+            .phone{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 13px;
+                    }
+                    span{
+                        font-size: 12px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .mail{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 13px;
+                    }
+                    span{
+                        font-size: 12px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .location{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 13px;
+                    }
+                    span{
+                        font-size: 12px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .send-message{
+                margin-top: 50px;
+                input{
+                    background-color: transparent;
+                    border-radius: 5px;
+                    font-size: 12px;
+                    padding: 2px 10px;
+                    border-color: white;
+                    color: white;
+                }
+                button{
+                    margin-left: 15px;
+                    border: none;
+                    font-size: 12px;
+                    border-radius: 5px;
+                    padding: 2px 13px;
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.658);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and ( max-width: 600px ){
+    #the-town-background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .background-img{
+            position: relative;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .background-img-text{
+            position: absolute;
+            text-align: center;
+            span{
+                font-size: 10px;
+            }
+            h4{
+                font-size: 6px;
+            }
+            .background-btn{
+                margin-top: 50px;
+                button{
+                    border: none;
+                    border-radius: 30%;
+                    font-size: 20px;
+                    padding: 1px 8px;
+                    i{
+                        color: black;
+                    }
+                    &:hover{
+                        background-color: rgb(46, 46, 168);
+                        transition: 0.3s;
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #introduction{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        .introduction-img{
+            img{
+                width: 90%;
+            }
+        }
+        .introduction-text{
+            span{
+                font-size: 20px;
+                color: #00b7ff;
+            }
+            p{
+                font-size: 9px;
+            }
+            .introduction-btn{
+                button{
+                    border: none;
+                    border-radius: 2rem;
+                    padding: 1px 7px;
+                    background-color: #1c8db9;
+                    color: white;
+                    &:hover{
+                        background-color: rgba(79, 170, 206, 0.815);
+                        transition: 0.4s;
+                    }
+                }
+            }
+        }
+    }
+    #transportation{
+        margin-top: 150px;
+        .transportation-icon{
+            text-align: center;
+            color: #1c8db9;
+            i{
+                font-size: 30px;
+            }
+        }
+        .title-transpolation{
+            text-align: center;
+            margin-top: 30px;
+            span{
+                text-align: center;
+                color: #1c8db9;
+                font-size: 10px;
+            }
+        }
+        p{
+            margin-top: 30px;
+            font-size: 8px;
+            color: gray;
+        }
+    }
+    #work{
+        margin-top: 150px;
+        text-align: center;
+        .title{
+            span{
+                color: #1c8db9;
+                font-size: 20px;
+            }
+        }
+        .subtitle{
+            margin-top: 15px;
+            p{
+                font-size: 8px;
+                color: gray;
+            }
+        }
+    }
+    #contact{
+        .contact-image{
+            background-image: url("../images/the-town-bg-02.jpg");
+            width: 100%;
+            height: 600px;
+            margin-top: 100px;
+            .contact-text{
+                span{
+                    font-size: 15px;
+                    color: white;
+                }
+                .first-line{
+                    margin-top: 15px;
+                    width: 100%;
+                    height: 1px;
+                    background-color: white;
+                }
+                .second-line{
+                    width: 20%;
+                    height: 4px;
+                    background-color: white;
+                }
+                p{
+                    margin-top: 50px;
+                    font-size: 8px;
+                    color: white;
+                }
+            }
+            .phone{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 10px;
+                    }
+                    span{
+                        font-size: 8px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .mail{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 10px;
+                    }
+                    span{
+                        font-size: 8px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .location{
+                margin-top: 50px;
+                a{
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    i{
+                        font-size: 10px;
+                    }
+                    span{
+                        font-size: 8px;
+                        margin-left: 15px;
+                    }
+                    &:hover{
+                        color: rgb(30, 30, 180);
+                        transition: 0.4s;
+                    }
+                }
+            }
+            .send-message{
+                margin-top: 50px;
+                input{
+                    background-color: transparent;
+                    border-radius: 5px;
+                    font-size: 8px;
+                    padding: 1px 4px;
+                    border-color: white;
+                    color: white;
+                }
+                button{
+                    margin-left: 15px;
+                    border: none;
+                    font-size: 8px;
+                    border-radius: 5px;
+                    padding: 1px 10px;
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.658);
+                    }
+                }
+            }
+        }
+    }
+}

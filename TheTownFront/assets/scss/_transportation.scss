@@ -1,0 +1,24 @@
+#transportation{
+    margin-top: 150px;
+    .transportation-icon{
+        text-align: center;
+        color: #1c8db9;
+        i{
+            font-size: 70px;
+        }
+    }
+    .title-transpolation{
+        text-align: center;
+        margin-top: 30px;
+        span{
+            text-align: center;
+            color: #1c8db9;
+            font-size: 25px;
+        }
+    }
+    p{
+        margin-top: 30px;
+        font-size: 19px;
+        color: gray;
+    }
+}

@@ -1,0 +1,1051 @@
+header {
+  background-color: #cc6007;
+}
+
+header .container {
+  padding: 0 10px;
+}
+
+header .container ul li {
+  padding: 0 13px;
+}
+
+header .container ul li a {
+  font-weight: 600;
+  font-size: 25px;
+  color: white !important;
+}
+
+header .container ul li a:hover {
+  color: #4545bd !important;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+#the-town-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#the-town-background .background-img {
+  position: relative;
+}
+
+#the-town-background .background-img img {
+  height: 100%;
+  width: 100%;
+}
+
+#the-town-background .background-img-text {
+  position: absolute;
+  text-align: center;
+}
+
+#the-town-background .background-img-text span {
+  font-size: 70px;
+}
+
+#the-town-background .background-img-text .background-btn {
+  margin-top: 150px;
+}
+
+#the-town-background .background-img-text .background-btn button {
+  border: none;
+  border-radius: 50%;
+  font-size: 50px;
+  padding: 5px 25px;
+}
+
+#the-town-background .background-img-text .background-btn button i {
+  color: black;
+}
+
+#the-town-background .background-img-text .background-btn button:hover {
+  background-color: #2e2ea8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#the-town-background .background-img-text .background-btn button:hover i {
+  color: white;
+}
+
+#introduction {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#introduction .introduction-img img {
+  width: 90%;
+}
+
+#introduction .introduction-text span {
+  font-size: 50px;
+  color: #00b7ff;
+}
+
+#introduction .introduction-text p {
+  font-size: 20px;
+}
+
+#introduction .introduction-text .introduction-btn button {
+  border: none;
+  border-radius: 2rem;
+  padding: 10px 30px;
+  background-color: #1c8db9;
+  color: white;
+}
+
+#introduction .introduction-text .introduction-btn button:hover {
+  background-color: rgba(79, 170, 206, 0.815);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#transportation {
+  margin-top: 150px;
+}
+
+#transportation .transportation-icon {
+  text-align: center;
+  color: #1c8db9;
+}
+
+#transportation .transportation-icon i {
+  font-size: 70px;
+}
+
+#transportation .title-transpolation {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#transportation .title-transpolation span {
+  text-align: center;
+  color: #1c8db9;
+  font-size: 25px;
+}
+
+#transportation p {
+  margin-top: 30px;
+  font-size: 19px;
+  color: gray;
+}
+
+#work {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#work .title span {
+  color: #1c8db9;
+  font-size: 40px;
+}
+
+#work .subtitle {
+  margin-top: 15px;
+}
+
+#work .subtitle p {
+  color: gray;
+}
+
+#work .work-slider {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#work .work-slider .carousel {
+  width: 20% !important;
+}
+
+#contact .contact-image {
+  background-image: url("../images/the-town-bg-02.jpg");
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+}
+
+#contact .contact-image .contact-text span {
+  font-size: 45px;
+  color: white;
+}
+
+#contact .contact-image .contact-text .first-line {
+  margin-top: 15px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+#contact .contact-image .contact-text .second-line {
+  width: 20%;
+  height: 8px;
+  background-color: white;
+}
+
+#contact .contact-image .contact-text p {
+  margin-top: 50px;
+  color: white;
+}
+
+#contact .contact-image .phone {
+  margin-top: 50px;
+}
+
+#contact .contact-image .phone a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#contact .contact-image .phone a i {
+  font-size: 50px;
+}
+
+#contact .contact-image .phone a span {
+  margin-left: 15px;
+}
+
+#contact .contact-image .phone a:hover {
+  color: #1e1eb4;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#contact .contact-image .mail {
+  margin-top: 50px;
+}
+
+#contact .contact-image .mail a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#contact .contact-image .mail a i {
+  font-size: 50px;
+}
+
+#contact .contact-image .mail a span {
+  margin-left: 15px;
+}
+
+#contact .contact-image .mail a:hover {
+  color: #1e1eb4;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#contact .contact-image .location {
+  margin-top: 50px;
+}
+
+#contact .contact-image .location a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#contact .contact-image .location a i {
+  font-size: 50px;
+}
+
+#contact .contact-image .location a span {
+  margin-left: 15px;
+}
+
+#contact .contact-image .location a:hover {
+  color: #1e1eb4;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#contact .contact-image .send-message {
+  margin-top: 50px;
+}
+
+#contact .contact-image .send-message input {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 7px 19px;
+  border-color: white;
+  color: white;
+}
+
+#contact .contact-image .send-message button {
+  margin-left: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 29px;
+}
+
+#contact .contact-image .send-message button:hover {
+  background-color: rgba(255, 255, 255, 0.658);
+}
+
+@media only screen and (max-width: 992px) {
+  #the-town-background {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #the-town-background .background-img {
+    position: relative;
+  }
+  #the-town-background .background-img img {
+    height: 100%;
+    width: 100%;
+  }
+  #the-town-background .background-img-text {
+    position: absolute;
+    text-align: center;
+  }
+  #the-town-background .background-img-text span {
+    font-size: 25px;
+  }
+  #the-town-background .background-img-text h4 {
+    font-size: 15px;
+  }
+  #the-town-background .background-img-text .background-btn {
+    margin-top: 50px;
+  }
+  #the-town-background .background-img-text .background-btn button {
+    border: none;
+    border-radius: 30%;
+    font-size: 28px;
+    padding: 2px 16px;
+  }
+  #the-town-background .background-img-text .background-btn button i {
+    color: black;
+  }
+  #the-town-background .background-img-text .background-btn button:hover {
+    background-color: #2e2ea8;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #the-town-background .background-img-text .background-btn button:hover i {
+    color: white;
+  }
+  #introduction {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #introduction .introduction-img img {
+    width: 90%;
+  }
+  #introduction .introduction-text span {
+    font-size: 30px;
+    color: #00b7ff;
+  }
+  #introduction .introduction-text p {
+    font-size: 17px;
+  }
+  #introduction .introduction-text .introduction-btn button {
+    border: none;
+    border-radius: 2rem;
+    padding: 2px 15px;
+    background-color: #1c8db9;
+    color: white;
+  }
+  #introduction .introduction-text .introduction-btn button:hover {
+    background-color: rgba(79, 170, 206, 0.815);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #transportation {
+    margin-top: 150px;
+  }
+  #transportation .transportation-icon {
+    text-align: center;
+    color: #1c8db9;
+  }
+  #transportation .transportation-icon i {
+    font-size: 45px;
+  }
+  #transportation .title-transpolation {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #transportation .title-transpolation span {
+    text-align: center;
+    color: #1c8db9;
+    font-size: 25px;
+  }
+  #transportation p {
+    margin-top: 30px;
+    font-size: 16px;
+    color: gray;
+  }
+  #work {
+    margin-top: 150px;
+    text-align: center;
+  }
+  #work .title span {
+    color: #1c8db9;
+    font-size: 35px;
+  }
+  #work .subtitle {
+    margin-top: 15px;
+  }
+  #work .subtitle p {
+    font-size: 18px;
+    color: gray;
+  }
+  #contact .contact-image {
+    background-image: url("../images/the-town-bg-02.jpg");
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+  }
+  #contact .contact-image .contact-text span {
+    font-size: 30px;
+    color: white;
+  }
+  #contact .contact-image .contact-text .first-line {
+    margin-top: 15px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+  }
+  #contact .contact-image .contact-text .second-line {
+    width: 20%;
+    height: 6px;
+    background-color: white;
+  }
+  #contact .contact-image .contact-text p {
+    margin-top: 50px;
+    font-size: 22px;
+    color: white;
+  }
+  #contact .contact-image .phone {
+    margin-top: 50px;
+  }
+  #contact .contact-image .phone a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .phone a i {
+    font-size: 23px;
+  }
+  #contact .contact-image .phone a span {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .phone a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .mail {
+    margin-top: 50px;
+  }
+  #contact .contact-image .mail a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .mail a i {
+    font-size: 23px;
+  }
+  #contact .contact-image .mail a span {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .mail a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .location {
+    margin-top: 50px;
+  }
+  #contact .contact-image .location a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .location a i {
+    font-size: 23px;
+  }
+  #contact .contact-image .location a span {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .location a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .send-message {
+    margin-top: 50px;
+  }
+  #contact .contact-image .send-message input {
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 16px;
+    border-color: white;
+    color: white;
+  }
+  #contact .contact-image .send-message button {
+    margin-left: 15px;
+    border: none;
+    font-size: 23px;
+    border-radius: 5px;
+    padding: 2px 19px;
+  }
+  #contact .contact-image .send-message button:hover {
+    background-color: rgba(255, 255, 255, 0.658);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #the-town-background {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #the-town-background .background-img {
+    position: relative;
+  }
+  #the-town-background .background-img img {
+    height: 100%;
+    width: 100%;
+  }
+  #the-town-background .background-img-text {
+    position: absolute;
+    text-align: center;
+  }
+  #the-town-background .background-img-text span {
+    font-size: 20px;
+  }
+  #the-town-background .background-img-text h4 {
+    font-size: 12px;
+  }
+  #the-town-background .background-img-text .background-btn {
+    margin-top: 50px;
+  }
+  #the-town-background .background-img-text .background-btn button {
+    border: none;
+    border-radius: 30%;
+    font-size: 25px;
+    padding: 2px 12px;
+  }
+  #the-town-background .background-img-text .background-btn button i {
+    color: black;
+  }
+  #the-town-background .background-img-text .background-btn button:hover {
+    background-color: #2e2ea8;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #the-town-background .background-img-text .background-btn button:hover i {
+    color: white;
+  }
+  #introduction {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #introduction .introduction-img img {
+    width: 90%;
+  }
+  #introduction .introduction-text span {
+    font-size: 24px;
+    color: #00b7ff;
+  }
+  #introduction .introduction-text p {
+    font-size: 13px;
+  }
+  #introduction .introduction-text .introduction-btn button {
+    border: none;
+    border-radius: 2rem;
+    padding: 2px 11px;
+    background-color: #1c8db9;
+    color: white;
+  }
+  #introduction .introduction-text .introduction-btn button:hover {
+    background-color: rgba(79, 170, 206, 0.815);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #transportation {
+    margin-top: 150px;
+  }
+  #transportation .transportation-icon {
+    text-align: center;
+    color: #1c8db9;
+  }
+  #transportation .transportation-icon i {
+    font-size: 35px;
+  }
+  #transportation .title-transpolation {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #transportation .title-transpolation span {
+    text-align: center;
+    color: #1c8db9;
+    font-size: 15px;
+  }
+  #transportation p {
+    margin-top: 30px;
+    font-size: 13px;
+    color: gray;
+  }
+  #work {
+    margin-top: 150px;
+    text-align: center;
+  }
+  #work .title span {
+    color: #1c8db9;
+    font-size: 25px;
+  }
+  #work .subtitle {
+    margin-top: 15px;
+  }
+  #work .subtitle p {
+    font-size: 12px;
+    color: gray;
+  }
+  #contact .contact-image {
+    background-image: url("../images/the-town-bg-02.jpg");
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+  }
+  #contact .contact-image .contact-text span {
+    font-size: 20px;
+    color: white;
+  }
+  #contact .contact-image .contact-text .first-line {
+    margin-top: 15px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+  }
+  #contact .contact-image .contact-text .second-line {
+    width: 20%;
+    height: 6px;
+    background-color: white;
+  }
+  #contact .contact-image .contact-text p {
+    margin-top: 50px;
+    font-size: 12px;
+    color: white;
+  }
+  #contact .contact-image .phone {
+    margin-top: 50px;
+  }
+  #contact .contact-image .phone a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .phone a i {
+    font-size: 13px;
+  }
+  #contact .contact-image .phone a span {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .phone a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .mail {
+    margin-top: 50px;
+  }
+  #contact .contact-image .mail a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .mail a i {
+    font-size: 13px;
+  }
+  #contact .contact-image .mail a span {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .mail a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .location {
+    margin-top: 50px;
+  }
+  #contact .contact-image .location a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .location a i {
+    font-size: 13px;
+  }
+  #contact .contact-image .location a span {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .location a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .send-message {
+    margin-top: 50px;
+  }
+  #contact .contact-image .send-message input {
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-color: white;
+    color: white;
+  }
+  #contact .contact-image .send-message button {
+    margin-left: 15px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px 13px;
+  }
+  #contact .contact-image .send-message button:hover {
+    background-color: rgba(255, 255, 255, 0.658);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #the-town-background {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #the-town-background .background-img {
+    position: relative;
+  }
+  #the-town-background .background-img img {
+    height: 100%;
+    width: 100%;
+  }
+  #the-town-background .background-img-text {
+    position: absolute;
+    text-align: center;
+  }
+  #the-town-background .background-img-text span {
+    font-size: 10px;
+  }
+  #the-town-background .background-img-text h4 {
+    font-size: 6px;
+  }
+  #the-town-background .background-img-text .background-btn {
+    margin-top: 50px;
+  }
+  #the-town-background .background-img-text .background-btn button {
+    border: none;
+    border-radius: 30%;
+    font-size: 20px;
+    padding: 1px 8px;
+  }
+  #the-town-background .background-img-text .background-btn button i {
+    color: black;
+  }
+  #the-town-background .background-img-text .background-btn button:hover {
+    background-color: #2e2ea8;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #the-town-background .background-img-text .background-btn button:hover i {
+    color: white;
+  }
+  #introduction {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #introduction .introduction-img img {
+    width: 90%;
+  }
+  #introduction .introduction-text span {
+    font-size: 20px;
+    color: #00b7ff;
+  }
+  #introduction .introduction-text p {
+    font-size: 9px;
+  }
+  #introduction .introduction-text .introduction-btn button {
+    border: none;
+    border-radius: 2rem;
+    padding: 1px 7px;
+    background-color: #1c8db9;
+    color: white;
+  }
+  #introduction .introduction-text .introduction-btn button:hover {
+    background-color: rgba(79, 170, 206, 0.815);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #transportation {
+    margin-top: 150px;
+  }
+  #transportation .transportation-icon {
+    text-align: center;
+    color: #1c8db9;
+  }
+  #transportation .transportation-icon i {
+    font-size: 30px;
+  }
+  #transportation .title-transpolation {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #transportation .title-transpolation span {
+    text-align: center;
+    color: #1c8db9;
+    font-size: 10px;
+  }
+  #transportation p {
+    margin-top: 30px;
+    font-size: 8px;
+    color: gray;
+  }
+  #work {
+    margin-top: 150px;
+    text-align: center;
+  }
+  #work .title span {
+    color: #1c8db9;
+    font-size: 20px;
+  }
+  #work .subtitle {
+    margin-top: 15px;
+  }
+  #work .subtitle p {
+    font-size: 8px;
+    color: gray;
+  }
+  #contact .contact-image {
+    background-image: url("../images/the-town-bg-02.jpg");
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+  }
+  #contact .contact-image .contact-text span {
+    font-size: 15px;
+    color: white;
+  }
+  #contact .contact-image .contact-text .first-line {
+    margin-top: 15px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+  }
+  #contact .contact-image .contact-text .second-line {
+    width: 20%;
+    height: 4px;
+    background-color: white;
+  }
+  #contact .contact-image .contact-text p {
+    margin-top: 50px;
+    font-size: 8px;
+    color: white;
+  }
+  #contact .contact-image .phone {
+    margin-top: 50px;
+  }
+  #contact .contact-image .phone a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .phone a i {
+    font-size: 10px;
+  }
+  #contact .contact-image .phone a span {
+    font-size: 8px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .phone a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .mail {
+    margin-top: 50px;
+  }
+  #contact .contact-image .mail a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .mail a i {
+    font-size: 10px;
+  }
+  #contact .contact-image .mail a span {
+    font-size: 8px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .mail a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .location {
+    margin-top: 50px;
+  }
+  #contact .contact-image .location a {
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  #contact .contact-image .location a i {
+    font-size: 10px;
+  }
+  #contact .contact-image .location a span {
+    font-size: 8px;
+    margin-left: 15px;
+  }
+  #contact .contact-image .location a:hover {
+    color: #1e1eb4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #contact .contact-image .send-message {
+    margin-top: 50px;
+  }
+  #contact .contact-image .send-message input {
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 8px;
+    padding: 1px 4px;
+    border-color: white;
+    color: white;
+  }
+  #contact .contact-image .send-message button {
+    margin-left: 15px;
+    border: none;
+    font-size: 8px;
+    border-radius: 5px;
+    padding: 1px 10px;
+  }
+  #contact .contact-image .send-message button:hover {
+    background-color: rgba(255, 255, 255, 0.658);
+  }
+}
+/*# sourceMappingURL=style.css.map */

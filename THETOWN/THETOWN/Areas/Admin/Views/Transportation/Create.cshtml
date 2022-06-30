@@ -1,0 +1,27 @@
+﻿@model Transportation
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <form class="forms-sample" method="post">
+            <div class="form-group">
+                <label asp-for="IconUrl"></label>
+                <input class="form-control" asp-for="IconUrl" placeholder="IconUrl">
+            </div>
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input class="form-control" asp-for="Title" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <label asp-for="Desc"></label>
+                <input class="form-control" asp-for="Desc" placeholder="Desc">
+            </div>
+            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+            <a class="btn btn-dark" asp-controller="Transportation" asp-action="Index">Back</a>
+        </form>
+    </div>
+</div>
+

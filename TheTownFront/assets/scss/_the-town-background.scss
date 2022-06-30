@@ -1,0 +1,39 @@
+#the-town-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .background-img{
+        position: relative;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .background-img-text{
+        position: absolute;
+        text-align: center;
+        span{
+            font-size: 70px;
+        }
+        .background-btn{
+            margin-top: 150px;
+            button{
+                border: none;
+                border-radius: 50%;
+                font-size: 50px;
+                padding: 5px 25px;
+                i{
+                    color: black;
+                }
+                &:hover{
+                    background-color: rgb(46, 46, 168);
+                    transition: 0.3s;
+                    i{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

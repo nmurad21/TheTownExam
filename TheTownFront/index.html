@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- === Bootstrap 5 Link === -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- === Font Awesome Link === -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- === CSS Link === -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               
+                <li class="nav-item">
+                  <a class="nav-link active">The Town</a>
+                </li>
+
+              </ul>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+               
+                <li class="nav-item">
+                  <a class="nav-link active">Introduction</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <main>
+      <section id="the-town-background">
+        <div class="background-img">
+          <img src="./assets/images/the-town-bg-01.jpg" alt="" />
+        </div>
+        <div class="background-img-text">
+          <span>The Town</span>
+          <h4>
+            Parallax Bootstrap Theme <br />
+            By TemplateMo
+          </h4>
+          <div class="background-btn">
+            <button><i class="fa-solid fa-angle-down"></i></button>
+          </div>
+        </div>
+      </section>
+      <section id="introduction">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="introduction-img">
+                <img src="./assets/images/the-town-01.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-6 introduction-text">
+              <span>Introduction</span>
+              <p class="first-text">
+                The Town is simple CSS template built on Bootstrap v4.1.3 and
+                this is a little parallax layout that you can use <br />
+                for your websites.
+              </p>
+              <p class="second-text">
+                Please tell your friends about our site TemplateMo. Thank you.
+                Curabitur dapibus tristique enim a imperdiet. Etiam tristique
+                sem sed condimentum posuere.
+              </p>
+              <div class="introduction-btn">
+                <button type="button">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="transportation">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="transportation-icon">
+                <i class="fa-solid fa-bus-simple"></i>
+              </div>
+              <div class="title-transpolation">
+                <span>Curabitur at elit eu risus</span>
+              </div>
+              <p>
+                Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
+                nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare
+                lacus. Duis imperdiet lacus justo.
+              </p>
+            </div>
+            <div class="col-4">
+              <div class="transportation-icon">
+                <i class="fa-solid fa-bicycle"></i>
+              </div>
+              <div class="title-transpolation">
+                <span>Nunc sed metus vel nisi</span>
+              </div>
+              <p>
+                Praesent ut finibus leo. Duis et tempus ipsum, id pretium nunc.
+                Vivamus imperdiet sem quis orci pharetra convallis. Nunc a
+                tempus nisi, sed fringilla purus. In hac habitasse platea.
+              </p>
+            </div>
+            <div class="col-4">
+              <div class="transportation-icon">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <div class="title-transpolation">
+                <span>Fusce sed nisi sagittis</span>
+              </div>
+              <p>
+                Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit
+                volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi.
+                Vestibulum ante ipsum primis in faucibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title">
+                <span>Our Work</span>
+              </div>
+              <div class="subtitle">
+                <p>
+                  "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales
+                  nibh, ut porttitor elit. Sed id dui <br> mi. Vestibulum ante ipsum
+                  primis in faucibus orci luctus et ultrices posuere cubilia."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row work-slider">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./assets/images/gallery-img-01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./assets/images/gallery-tn-01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/gallery-img-03.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/gallery-img-04.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/gallery-img-05.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/images/gallery-img-06.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-image">
+          <div class="container">
+            <div class="contact-text">
+              <span>Contact Us</span>
+              <div class="first-line"></div>
+              <div class="second-line"></div>
+              <p>Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui, non tempus sem turpis vitae lorem. Maecenas eget odio in sapien <br> ultrices viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque at at velit.</p>
+          </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-6 phone">
+                <a href="">
+                  <i class="fa-solid fa-phone-flip"></i>
+                  <span>010-020-0340</span>
+                </a>
+              </div>
+              <div class="col-6 mail">
+                <a href="">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>info@company.co</span>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 location">
+                <a href="">
+                  <i class="fa-solid fa-location-pin"></i>
+                  <span>010-020-0340</span>
+                </a>
+              </div>
+              <div class="col-6 send-message">
+                <form action="">
+                  <input type="email" placeholder="Subscribe Your Email">
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
